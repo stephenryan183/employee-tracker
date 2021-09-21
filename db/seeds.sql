@@ -1,4 +1,4 @@
-INSERT INTO department (department_name)
+INSERT INTO departments (departments_name)
 VALUES ("Managment"),
         ("Software Developnent"),
        ("HR"),
@@ -6,7 +6,7 @@ VALUES ("Managment"),
        ('Influencers');
        
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO role (title, salary, departments_id)
 VALUES ("Head of Managment", 300000, 1),
         ("Full Stack Developer", 200000, 2)
         ("Back End Engineer", 150000, 2),
